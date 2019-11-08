@@ -1,4 +1,4 @@
-module github.com/kintohub/fasthttp-example
+module github.com/kintohub/gin-example
 
 go 1.13
 
