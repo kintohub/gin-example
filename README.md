@@ -1,17 +1,17 @@
-# KintoHub FastHttp Example
+# KintoHub Gin Example
 
 ## Overview
 
-FastHttp is a HTTP server that is up to 10 times faster than net/http in Go. It can be built easily for microservice on KintoHub!
+Gin is a HTTP web framework written in Go. It can be built easily for microservice on KintoHub!
 
-[Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/fasthttp-example/hello/world)
+[Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/gin-example/hello/world)
 
 __About KintoHub:__
 
 KintoHub aligns teams to ship & operate cloud native apps with ease. [Learn More](https://www.kintohub.com)
 
 ## Deployment
-1. Apply this template to your [Github](https://github.com/kintohub/fasthttp-example/generate)
+1. Apply this template to your [Github](https://github.com/kintohub/gin-example/generate)
 2. Create a [Microservice Block](https://docs.kintohub.com/docs/kintoblocks/microservices) on KintoHub
 3. Connect your GithubApp to KintoHub and select the Repository you just generated on your account.
 4. Set the **name** of your kinto block
@@ -51,7 +51,7 @@ curl -X GET http://<EnvironmentHostName>/<KintoBlockName>/hello/world
 ```
 Please refer to [Accessing API Endpoints](https://docs.kintohub.com/docs/features/operating/accessing-endpoints) for the setup instruction
 
-Try this [Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/fasthttp-example/hello/world) !
+Try this [Live Example](https://8caf94bb-c2e5-45cf-898d-ca5b19954cda.api.master.kintohub.com/gin-example/hello/world) !
 
 ### Response
 ```json
